@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SUONO</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<p><span class="glyphicon glyphicon-user"></span> WelcomeBack, <span class="header-username">SEVOLFO</span></p>
+				</div>
+				<div class="col-sm-2">
+					<p><span class="glyphicon glyphicon-cog"></span> Your Settings</p>
+				</div>
+				<div class="col-sm-7 text-right">
+					<p>SIGN OUT</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="col-sm-5 pull-right player-background">
+		<div class="row player-row">
+			<div class="col-xs-1 player-icons small-player-icons left-icon">
+				<span class="glyphicon glyphicon-tasks grey-icon 10-icon"></span>
+			</div>
+			<div class="col-xs-4 col-xs-offset-1 player-icons large-player-icons">
+				<span class="glyphicon glyphicon-fast-backward grey-icon"></span>
+				<span class="glyphicon glyphicon-play grey-icon"></span>
+				<span class="glyphicon glyphicon-fast-forward white-icon 20-icon"></span>
+			</div>
+			
+			<div class="col-xs-4 player-info">
+				<small class="player-artist grey-icon">Matias Manelli</small>
+				<h6 class="player-song">Nothing Impossible</h6>
+			</div>
+			<div class="col-xs-1 player-icons small-player-icons">
+				<span class="glyphicon glyphicon-volume-up grey-icon"></span>
+			</div>
+		</div>
+		<div class="progress song-progress">
+		  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+		    <span class="sr-only">40% Complete</span>
+		  </div>
+		</div>
+	</div>
+	<div class="container player-container">
+		<div class="row">
+			<div class="col-sm-3">
+				<h1><span class="glyphicon glyphicon-headphones"></span> SUONO</h1>
+			</div>
+			<!-- <div class="col-sm-4 col-xs-4 player">
+				<div class="row">
+					<div class="col-xs-1 player-icons small-player-icons">
+						<span class="glyphicon glyphicon-tasks grey-icon 10-icon"></span>
+					</div>
+					<div class="col-xs-4 col-xs-offset-1 player-icons large-player-icons">
+						<span class="glyphicon glyphicon-fast-backward grey-icon"></span>
+						<span class="glyphicon glyphicon-play grey-icon"></span>
+						<span class="glyphicon glyphicon-fast-forward white-icon 20-icon"></span>
+					</div>
+					
+					<div class="col-xs-5 player-info">
+						<small class="player-artist grey-icon">Matias Manelli</small>
+						<h6 class="player-song">Nothing Impossible</h6>
+					</div>
+					<div class="col-xs-1 player-icons small-player-icons">
+						<span class="glyphicon glyphicon-volume-up grey-icon"></span>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+</nav>
+
+<div id="carousel-artist-list" class="carousel slide" data-ride="carousel">
+	
+	
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="emis-killa1.png" id="img1" class="" alt="">
+			<div class="carousel-caption">
+				<h3>MERCURIO</h3>
+				<small>BY EMIS KILLA</small>
+				<p>THE BRAND NEW ALBUM OF RAPPER EMIS KILLA</p>
+				<p>Buy the new album or listen 30 sec. of all tracks!</p>
+			</div>
+			
+		</div>
+		<div class="item">
+			<img src="emis-killa1.png" id="img1" class="" alt="">
+			<div class="carousel-caption">
+			
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-- Controls -->
+	<a class="left carousel-control" href="#carousel-artist-list" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		
+	</a>
+	<a class="right carousel-control" href="#carousel-artist-list" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+	<div class="bottom-overlay">
+		
+	</div>
+	<div class="container overlay-text">
+		<div class="row">
+			<div class="col-xs-4 pull-right text-right">
+				<a href="#" class="btn btn-black">
+				<span class="glyphicon glyphicon-play-circle"></span> 
+				PREVIEW
+				</a>
+				<a href="#" class="btn btn-green">
+				<span class="glyphicon glyphicon-usd"></span>
+				BUY NOW
+				</a>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class="under-carousel">	
+	<!-- Carousel Indicators -->
+	<div class="container">
+		<div class="row carousel-indicators">
+			<div class="col-xs-3"></div>
+			<div class="col-xs-2 slider-control active" data-target="#carousel-example-generic" data-slide-to="0"></div>
+			<div class="col-xs-2 slider-control" data-target="#carousel-example-generic" data-slide-to="1"></div>
+			<div class="col-xs-2 slider-control" data-target="#carousel-example-generic" data-slide-to="2"></div>
+			<div class="col-xs-3"></div>
+		</div>
+		<div class="row mid-navbar">
+			<div class="col-sm-12">
+				<nav class="navdiv">
+					<ul class="nav navbar-nav">
+						<li><a href="#">LISTEN</a></li>
+						<li class="active"><a href="#">RATING</a></li>
+						<li><a href="#">NEWS</a></li>
+						<li><a href="#">GIGS</a></li>
+						<li><a href="#">STORE</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<div class="container">
+	<div class="row search-row">
+		<div class="col-sm-3 pull-left">
+			<h2>LISTEN.</h2>
+		</div>
+		<div class="col-sm-6 pull-right text-right searchform">
+			<div class="input-group">
+				<div class="input-group-btn">
+					<button class="btn btn-default dropdown-toggle" type="button" id="genre-dropdown" data-toggle="dropdown">GENRE <span class="glyphicon glyphicon-chevron-down"></span></button>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="genre-dropdown">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">HIP-HOP</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">ROCK</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">REGGAE</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">JAZZ</a></li>
+					</ul>
+				
+				</div>
+				
+				<input type="text" class="form-control" placeholder="Search for songs" class="searchinput">
+				<span class="input-group-btn">
+					<button class="btn btn-green" type="button"><span class="glyphicon glyphicon-search"></span></button>
+				</span>
+				
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container">
+	<div class="row result-info-row">
+		<div class="col-sm-3">
+			<h3>RESULTS FOR: <span class="green-text">HIP-HOP</span></h3>
+		</div>
+	</div>
+</div>
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

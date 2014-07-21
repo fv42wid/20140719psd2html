@@ -1,0 +1,252 @@
+body {
+	margin-top: 120px;	
+}
+
+header {
+	width: 100%;
+	height: 40px;
+	padding-top: 10px;
+	background-color: 	#B3B7B8;
+	font-weight: bold;
+	color: #5D666D;
+}
+
+.header-username {
+	color: #fff;	
+}
+
+.navbar-fixed-top {
+	min-height: 120px;	
+	background-color: #2C2C2C;
+	border: none;
+}
+
+h1 {
+	color: #fff;
+	font-size: 20px;
+}
+
+nav h1 {
+	margin-top: 30px;	
+}
+
+nav h1 span {
+	color: #84B331	
+}
+
+.player-container {
+	position: relative;
+}
+
+.player-background {
+	background-color: #232323;
+	color: #232323;	
+	height: 80px;
+	z-index: -100;
+	padding: 0;
+}
+
+.player {
+	background-color: #232323;
+	height: 80px;
+	z-index: 10;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.player-row {
+	height: 75px;	
+}
+
+.player-icons {
+	margin-top: 30px;	
+}
+
+.grey-icon {
+	color: #999;	
+}
+
+.white-icon {
+	color: #fff;	
+}
+
+.left-icon {
+	margin-left: 10px;	
+}
+
+.small-player-icons {
+	font-size: 15px;
+	margin-top: 33px;	
+}
+
+.large-player-icons {
+	font-size: 20px;	
+}
+
+.player-info {
+	margin-top: 20px;
+	padding: 0;	
+}
+
+.player-info small {
+	font-size: 10px;	
+}
+
+.player-info h6 {
+	font-size: 12px;	
+	font-weight: bold;
+	color: #fff;
+}
+
+.song-progress {
+	width: 100%;
+	height: 5px;
+	border-radius: 0;
+	background-color: #585858;
+}
+
+.progress-bar {
+	background-color: #9AD940;	
+}
+
+.carousel {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;	
+}
+
+.carousel img#img1 {
+	min-width: 100%;
+	min-height: 400px;	
+	
+}
+
+.slider-control {
+	height: 3px;
+	background-color: #BFC3C4;	
+	margin: 0 5px 0 5px;
+}
+
+.carousel-indicators .active {
+	margin: 0;
+	width: 16.666666667%;
+	height: 3px;
+	background-color: #000;
+}
+
+.carousel-indicators {
+	position: relative;
+	top: 5px;
+}
+
+.carousel-caption {
+	text-align: left;
+	top: 70px;	
+}
+
+.carousel-caption h3,
+.carousel-caption small {
+	font-size 16px;
+	margin-bottom: 0;
+	color: #FAED8D;	
+}
+
+.carousel-caption p {
+	margin-top: 25px;	
+}
+
+.bottom-overlay {
+	width: 100%;
+	height: 90px;
+	background-color: #333;
+	z-index: 100;
+	position: absolute;
+	bottom: 0;	
+	opacity: 0.4;
+}
+
+.btn-black {
+	background-color: #2C2C2C;	
+	color: #fff;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.btn-green {
+	background-color: #7DBF1D;	
+	color: #fff;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.overlay-text {
+	z-index: 200;	
+	position: absolute;
+	bottom: 20px;
+}
+
+.under-carousel {
+	width: 100%;
+	height: 100px;
+	background-color: #E6EAEB;
+	
+}
+
+ul.nav {
+	float: none;
+}
+
+.mid-navbar {
+	margin-top: 25px;	
+}
+
+.navdiv {
+	width: 400px;
+	margin: 0 auto;
+	font-size: 15px;
+	font-weight: bold;
+	color: #9FA0A2;	
+}
+
+.navdiv a {
+	color: #9FA0A2;	
+}
+
+li.active>a {
+	color: #292B2A;	
+}
+
+.search-row {
+	margin-top: 30px;	
+}
+
+button.dropdown-toggle {
+	border-radius: 0;	
+}
+
+.searchform {
+	margin-top: 25px;	
+}
+
+button.dropdown-toggle,
+input[type="text"] {
+	background-color: #E6EAEB;
+	font-weight: bold;
+	color: #A2A2A2;
+}
+
+.result-info-row {
+	font-weight: bold;	
+}
+
+.result-info-row h3 {
+	font-size: 13px;
+	color: #C1C3C2;
+}
+
+.result-info-row span.green-text {
+	color: #74C113;
+}
+
+
