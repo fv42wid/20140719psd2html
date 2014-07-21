@@ -249,4 +249,28 @@ input[type="text"] {
 	color: #74C113;
 }
 
+h3.green-text {
+	color: #73C113;	
+}
+
+.info-right-side {
+	padding-top: 20px;
+	margin-top: 10px;	
+	padding-bottom: 20px;
+	
+}
+
+.inlineh3 {
+	display: inline;
+	margin-left: 10px;	
+	font-size: 13px;
+	padding-top: 20px;
+}
+
+.border-left {
+	border-left: 1px solid #73C113;
+	width: 160px;
+	padding-left: 0;	
+}
+
 
